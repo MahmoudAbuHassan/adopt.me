@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/MahmoudAbuHassan/adopt.me#readme",
   "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
     "prettier": "^2.0.5"
   }
 }
